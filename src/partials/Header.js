@@ -49,8 +49,8 @@ function Header() {
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
 
-             {/* <img className="flex-grow self-start rounded" src={require('../images/Retrera-Logo.png')} width="200" height="100" alt="Logo" /> */}
-             <img src={require('../images/Retrera-Logo.png')} alt="Logo" />
+             <img className="flex-grow self-start rounded" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" />
+             {/* <img src={require('../images/Retrera-Logo-With-Text.png')} alt="Logo" /> */}
 
               {/* 
               <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">

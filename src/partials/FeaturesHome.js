@@ -36,7 +36,7 @@ function FeaturesHome() {
 
           {/* Top image */}
           <div className="pb-12 md:pb-16">
-            <img src={require('../images/Retrera-Steps.png')} width="1104" height="325" alt="Features top" />
+            <img src={require('../images/Retrera-Steps-New.svg')} width="1104" height="325" alt="Features top" />
           </div>
 
           {/* Section content */}
@@ -46,7 +46,7 @@ function FeaturesHome() {
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">What we offer</h3>
-                <p className="text-xl text-gray-600">We are a marketplace that connects you with everything you need to plan a company offsite. By taking care of logistics and streamlining bookings, we empower you to build a better agenda in a freaction of the time.</p>
+                <p className="text-xl text-gray-600">We are a marketplace that connects you with everything you need to plan a company offsite.  We empower you to build a better agenda in a fraction of the time.  </p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -56,12 +56,14 @@ function FeaturesHome() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Curated options only</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Vetted options only</div>
                     <div className="text-gray-600">Find the right lodging, work space and experiences to foster team-building and innovation.</div>
+              
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                      {/* <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" /> */}
+                      <path d="M 4.5 8.5 l -2 -2 -0.8 0.8 2.8 2.8 6 -6.5 -0.8 -0.8 z" stroke="#191919" fill="black" stroke-width="1"/> 
                     </svg>
                   </div>
                 </a>
@@ -72,11 +74,12 @@ function FeaturesHome() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Transparent, seamless booking</div>
-                    <div className="text-gray-600">View live availability and group rates, and preview total cost estimates before booking.</div>
+                    <div className="text-gray-600">View live availability and group rates, and preview total retreat costs before booking.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" />
+                      {/* <path d="M11.854.146a.5.5 0 00-.525-.116l-11 4a.5.5 0 00-.015.934l4.8 1.921 1.921 4.8A.5.5 0 007.5 12h.008a.5.5 0 00.462-.329l4-11a.5.5 0 00-.116-.525z" fillRule="nonzero" /> */}
+                      <path d="M 4.5 8.5 l -2 -2 -0.8 0.8 2.8 2.8 6 -6.5 -0.8 -0.8 z" stroke="#191919" fill="black" stroke-width="1"/> 
                     </svg>
                   </div>
                 </a>
@@ -91,7 +94,8 @@ function FeaturesHome() {
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
+                      {/* <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" /> */}            
+                      <path d="M 4.5 8.5 l -2 -2 -0.8 0.8 2.8 2.8 6 -6.5 -0.8 -0.8 z" stroke="#191919" fill="black" stroke-width="1"/> 
                     </svg>
                   </div>
                 </a>
@@ -114,7 +118,9 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
+                    {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float"  src={require('../images/Retrera-Offer.svg')} width="500" height="375" alt="Features bg" style={{ top: '22%' }} /> */}
                     <img className="md:max-w-none mx-auto rounded" src={require('../images/Retrera-Offer.svg')} width="500" height="375" alt="Features bg" />
+                    
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '22%' }} /> */}
                     {/* <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={require('../images/features-home-element-02.png')} width="500" height="158" alt="Element 02" style={{ top: '39%' }} /> */}
                     {/* <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} /> */}
@@ -133,10 +139,11 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={require('../images/Retrera-Offer.svg')} width="500" height="375" alt="Features bg" />
+                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '18%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={require('../images/features-home-element-02.png')} width="500" height="158" alt="Element 02" style={{ top: '40%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '79%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '79%' }} /> */}
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -152,10 +159,11 @@ function FeaturesHome() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={require('../images/Retrera-Offer.svg')} width="500" height="375" alt="Features bg" />
+                    {/* <img className="md:max-w-none mx-auto rounded" src={require('../images/features-home-bg-01.png')} width="500" height="375" alt="Features bg" />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float" src={require('../images/features-home-element-01.png')} width="500" height="147" alt="Element 01" style={{ top: '22%' }} />
                     <img className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={require('../images/features-home-element-02.png')} width="500" height="158" alt="Element 02" style={{ top: '39%' }} />
-                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} />
+                    <img className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={require('../images/features-home-element-03.png')} width="500" height="167" alt="Element 03" style={{ top: '77%' }} /> */}
                   </div>
                 </Transition>
               </div>
