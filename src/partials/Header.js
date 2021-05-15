@@ -45,11 +45,12 @@ function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
 
           {/* Site branding */}
-          <div className="flex-shrink-0 mr-4">
+          <div className="flex-shrink-0 mr-2 ">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
 
-             <img className="flex-grow self-start rounded" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" />
+             {/* <img className="flex-grow self-start rounded" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" /> */}
+             <img className="flex-grow ml-0" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" />
              {/* <img src={require('../images/Retrera-Logo-With-Text.png')} alt="Logo" /> */}
 
               {/* 
@@ -78,7 +79,7 @@ function Header() {
                 <a class="typeform-share button text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://form.typeform.com/to/yLSngV8E?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Partner </a>
               </li>
               <li>
-              <a class="typeform-share button text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://form.typeform.com/to/yzf5D1OL?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Contact Us</a>
+              <a class="typeform-share button text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://form.typeform.com/to/yzf5D1OL?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Sign up</a>
               </li>
               {/* <li>
                 <Link to="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
@@ -93,7 +94,7 @@ function Header() {
               </li>
               <li>
                 <Link to="/blog" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
-              </li>               */}
+              </li>                */}
               {/* 1st level: hover */}
               {/* <Dropdown title="Resources"> */}
                 {/* 2nd level: hover */}
@@ -160,6 +161,19 @@ function Header() {
               >
                 <ul className="px-5 py-2">
                   <li>
+                    <a class="typeform-share button btn-sm text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://form.typeform.com/to/yzf5D1OL?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Plan</a>
+                  </li>
+                  <li>
+                    <a class="typeform-share button btn-sm text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://form.typeform.com/to/yLSngV8E?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Partner </a>
+                  </li>
+                  <li>  
+                    <a class="typeform-share button btn-sm text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" href="https://form.typeform.com/to/yzf5D1OL?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Contact Us</a>
+                  </li>
+
+                  <li>               
+                    <a className="typeform-share button btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2" href="https://form.typeform.com/to/yzf5D1OL?typeform-medium=embed-snippet" data-mode="popup" data-size="100" target="_blank">Sign up</a>      
+                  </li>  
+                  {/* <li>
                     <Link to="/pricing" className="flex text-gray-600 hover:text-gray-900 py-2">Pricing</Link>
                   </li>
                   <li>
@@ -170,7 +184,7 @@ function Header() {
                   </li>  
                   <li>
                     <Link to="/blog" className="flex text-gray-600 hover:text-gray-900 py-2">Blog</Link>
-                  </li>                                  
+                  </li>                                   
                   <li className="py-2 my-2 border-t border-b border-gray-200">
                     <span className="flex text-gray-600 hover:text-gray-900 py-2">Resources</span>
                     <ul className="pl-4">
@@ -184,18 +198,22 @@ function Header() {
                         <Link to="/404" className="text-sm flex font-medium text-gray-600 hover:text-gray-900 py-2">404</Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <Link to="/signin" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center">Sign in</Link>
-                  </li>
-                  <li>
-                    <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2">
-                      <span>Sign up</span>
-                      <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fill="#999" fillRule="nonzero" />
-                      </svg>
-                    </Link>
-                  </li>
+                  </li> */} 
+                  
+                  {/* proper sign in / sign up page that came w/ template not type form sign up  */}
+                  {/* <li>
+                      <Link to="/signin" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center">Sign in</Link>
+                    </li>
+                    <li>
+                      <Link to="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2">
+                        <span>Sign up</span>
+                        <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fill="#999" fillRule="nonzero" />
+                        </svg>
+                      </Link> 
+                  </li> */}
+                  
+                  
                 </ul>
               </Transition>
             </div>
