@@ -50,7 +50,7 @@ function Header() {
             <Link to="/" className="block" aria-label="Cruip">
 
              {/* <img className="flex-grow self-start rounded" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" /> */}
-             <img className="flex-grow ml-0" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" />
+             <img className="flex-grow justify-self-start -ml-6" src={require('../images/Retrera-Logo-With-Text-Blue.png')} width="200" height="100" alt="Logo" />
              {/* <img src={require('../images/Retrera-Logo-With-Text.png')} alt="Logo" /> */}
 
               {/* 
